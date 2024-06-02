@@ -6,19 +6,9 @@ Servo Motor3;
 
 const int motorPin [] = {15, 13, 4};
 
-long currentTime;
-long delayTime = 30000;
-long previousTime; 
-
-//long triggerMovementTime = 0;
-//
-//long minMotorTime = 2000;
-//
-//long maxMotorTime = 4000;
-//
-//long minDelayTime = 1000;
-//
-//long maxDelayTime = 3000;
+unsigned long currentTime;
+unsigned long delayTime = 30000;
+unsigned long previousTime; 
 
 void setup() {
 
