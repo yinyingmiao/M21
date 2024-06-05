@@ -4,7 +4,7 @@ Servo Servo1;
 Servo Servo2; 
 
 unsigned long currentTime; 
-unsigned long delayTime = 30000;
+unsigned long delayTime = 90000; //1.5 min
 unsigned long previousTime;
 
 
@@ -31,7 +31,9 @@ void loop() {
     Servo1.write (180);
     delay (1000);
     Servo2.write (180);
+
     delay (10000);
+
 
     Servo1.write (0);
     delay (1000);
